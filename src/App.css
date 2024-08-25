@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #3a3a3a;
+    color: white;
+    border-radius: 8px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: #ff6347;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    background-image: url('https://wallpapercave.com/wp/wp12596505.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content h2 {
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  .hero-content p {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .collections, .about, .footer {
+    padding: 50px 20px;
+  }
+  
+  .collection-list {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .collection-item {
+    text-align: center;
+  }
+  
+  .collection-item img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .about p, .footer p {
+    font-size: 18px;
+  }
+  
+  .footer {
+    background-color: #f4f4f4;
+    text-align: center;
+  }
